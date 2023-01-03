@@ -35,3 +35,35 @@
   position: relative;
   margin: auto;
 }
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  align-items: center;
+  border: 2px solid gold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.counter:hover {
+  background-color: gold;
+}
+.number {
+  display: block;
+}
+.number {
+  font-size: 7rem;
+}
+.button {
+  font-size: 2rem;
+  padding: 0.2rem 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  background-color: green;
+}
