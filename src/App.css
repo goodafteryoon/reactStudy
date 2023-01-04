@@ -49,6 +49,7 @@
 .container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .counter:hover {
@@ -66,4 +67,17 @@
   cursor: pointer;
   border-radius: 0.5rem;
   background-color: green;
+}
+
+.banner {
+  border: 2px solid black;
+  text-align: center;
+  margin: 2rem 2rem 0rem 2rem;
+  padding: 1rem;
+  background-color: gold;
+}
+
+.total {
+  font-size: 1rem;
+  margin-left: 0.1rem;
 }
