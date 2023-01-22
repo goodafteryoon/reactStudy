@@ -139,3 +139,5 @@ git push는 마음대로 할 수 있는게 아니다.
 - 예전에 -u 했었으면 git pull, git push 까지만 입력해도 잘된다.
 
 결론 : git push 하기 전에 뭐라그러면 git pull 먼저 하자
+
+# git push -u https://github.com/Gridge-Test/je-i-112.git dev
