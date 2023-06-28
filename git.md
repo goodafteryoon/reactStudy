@@ -140,4 +140,6 @@ git push는 마음대로 할 수 있는게 아니다.
 
 결론 : git push 하기 전에 뭐라그러면 git pull 먼저 하자
 
-# git push -u https://github.com/Gridge-Test/je-i-112.git dev
+- git merge 하려면 병합하는 브랜치로 먼저 switch
+- 병합 당하는(?) 브랜치를 머지해야함
+- ex) git switch dev > git merge design
